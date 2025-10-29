@@ -18,15 +18,24 @@ jobs:
       - name: Install system dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y libcurl4-openssl-dev libssl-dev libxml2-dev libfontconfig1-dev libharfbuzz-dev libfribidi-dev libfreetype6-dev libpng-dev libtiff5-dev libjpeg-dev
+          sudo apt-get install -y \
+            libcurl4-openssl-dev \
+            libssl-dev \
+            libxml2-dev \
+            libfontconfig1-dev \
+            libharfbuzz-dev \
+            libfribidi-dev \
+            libfreetype6-dev \
+            libpng-dev \
+            libtiff5-dev \
+            libjpeg-dev
 
       - name: Setup Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
       - name: Install R packages
         run: |
-          Rscript -e 'install.packages(c("remotes", "tidyverse", "igraph", "sna", "ggraph", "visNetwork", "readr", "tidygraph"), repos = "https://cloud.r-project.org")'
-          Rscript -e 'remotes::install_github("davidgohel/ggiraph")'
+          Rscript -e 'install.packages(c("tidyverse", "igraph", "sna", "ggraph", "ggiraph", "visNetwork", "readr", "tidygraph"), repos = "https://cloud.r-project.org")'
 
       - name: Render Quarto project
         run: quarto render
