@@ -25,8 +25,6 @@ library("readr")
 library("igraph")
 library("tidyverse")
 library("tidygraph")
-library("ggraph")
-library("ggiraph")
 library("visNetwork")
 ```
 
@@ -63,16 +61,13 @@ install.packages("readr") # reads .xls and .csv files
 install.packages("igraph") # for network functions
 install.packages("tidyverse") # for cleaning up tables/data frames
 install.packages("tidygraph") # for cleaning up graphs
-install.packages("ggraph") # for some additional graphing functions
-install.packages("ggiraph") # for interactive graph functions
+
 
 library("sna")
 library("readr")
 library("igraph")
 library("tidyverse")
 library("tidygraph")
-library("ggraph")
-library("ggiraph")
 ```
 
 A .csv file was brought into the system.
