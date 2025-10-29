@@ -4,7 +4,3 @@ project:
 website:
   title: "University of Southampton Reproducible and Transparent Research Practices Map"
   output-dir: _site
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
