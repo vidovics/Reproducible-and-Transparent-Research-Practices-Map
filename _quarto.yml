@@ -1,6 +1,6 @@
 project:
   type: website
+  output-dir: _site
 
 website:
   title: "University of Southampton Reproducible and Transparent Research Practices Map"
-  output-dir: _site
