@@ -25,7 +25,8 @@ jobs:
 
       - name: Install R packages
         run: |
-          Rscript -e 'install.packages(c("tidyverse", "igraph", "sna", "ggraph", "ggiraph", "visNetwork", "readr", "tidygraph"), repos = "https://cloud.r-project.org")'
+          Rscript -e 'install.packages(c("remotes", "tidyverse", "igraph", "sna", "ggraph", "visNetwork", "readr", "tidygraph"), repos = "https://cloud.r-project.org")'
+          Rscript -e 'remotes::install_github("davidgohel/ggiraph")'
 
       - name: Render Quarto project
         run: quarto render
