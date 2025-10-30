@@ -1,5 +1,17 @@
 project:
   type: website
+  output-dir: _site    # Folder GitHub Pages will serve
+  render:
+    - "*.qmd"          # Render all .qmd files
 
 website:
   title: "University of Southampton Reproducible and Transparent Research Practices Map"
+  navbar: false         # No navigation bar
+
+format:
+  html:
+    theme: cosmo        # Clean, readable Bootstrap theme
+    toc: true           # Table of contents on the side
+    toc-depth: 3
+    code-fold: true     # Collapsible code blocks
+    smooth-scroll: true
