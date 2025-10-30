@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.25">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Steven Vidovic">
+
+<title>University of Southampton Reproducible and Transparent Research Practices Map</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-8fd1faf6fd93e4e6d207ae0f9db51d78.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<link href="site_libs/vis-9.1.0/vis-network.min.css" rel="stylesheet">
+<script src="site_libs/vis-9.1.0/vis-network.min.js"></script>
+<script src="site_libs/visNetwork-binding-2.1.4/visNetwork.js"></script>
+
+
+</head>
+
+<body class="fullcontent quarto-light">
+
+<div id="quarto-search-results"></div>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">University of Southampton Reproducible and Transparent Research Practices Map</h1>
+</div>
+
+
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Author</div>
+  <div class="quarto-title-meta-heading">Affiliation</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author">Steven Vidovic <a href="https://orcid.org/0000-0002-4726-8018" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            University of Southampton
+          </p>
+      </div>
+  </div>
+
+<div class="quarto-title-meta">
+
+      
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.5258/soton/p1266">10.5258/soton/p1266</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<section id="the-university-of-southampton-reproducible-and-transparent-practices" class="level2">
+<h2 class="anchored" data-anchor-id="the-university-of-southampton-reproducible-and-transparent-practices">The University of Southampton Reproducible and Transparent Practices</h2>
+<p>The University of Southampton has numerous pockets of excellence practicing reproducible and transparent research best practices, broadly contributing to Open Research, Research Integrity, and Research Culture. Here we attempt to “map” those pockets of excellence, considering tools, training, activities, infrastructure, networks etc. which create, promote, and enable these practices.</p>
+</section>
+<section id="methodology" class="level2">
+<h2 class="anchored" data-anchor-id="methodology">Methodology</h2>
+<section id="data-collection" class="level3">
+<h3 class="anchored" data-anchor-id="data-collection">Data collection</h3>
+<p>A table was created containing columns headed: Activity/centre (name); Class descriptor (e.g.&nbsp;network, infrastructure etc.); Description (an explanation of the activity/practice(s)); People/depts.; Collaborate w/; Engage w/; Share people w/. This table was pre-populated with some activities, infrastructures, and networks supporting Open Research by the UK Reproducibility Network (UKRN) Institutional Lead with assistance from the UKRN Local Network Lead and colleagues contributing to the management of the UKRN local network.</p>
+<p>Following the initial population with examples the table was shared with the University’s Associate Deans Research, other members of its Open Research Group, and Deputy Heads of School Research <em>for all schools</em> to encourage completion of the table, or forwarding the opportunity to relevant stakeholders. Specific activities or centres of reproducible and transparent research practices were recorded as individual rows, their contributions were described, and their inter-relationships were recorded.</p>
+<p>Relationships were recorded by giving each activity/centre an ID and recording that ID in any rows where there was engagement, collaboration, or the sharing of staff between activity/centres.</p>
+</section>
+<section id="analysis" class="level3">
+<h3 class="anchored" data-anchor-id="analysis">Analysis</h3>
+<p>Analysis was performed in R using the packages below.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">"sna"</span>) <span class="co"># "social network analysis" for network analysis functions</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">"readr"</span>) <span class="co"># reads .xls and .csv files</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">"igraph"</span>) <span class="co"># for network functions</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">"tidyverse"</span>) <span class="co"># for cleaning up tables/data frames</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">"tidygraph"</span>) <span class="co"># for cleaning up graphs</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(<span class="st">"sna"</span>)</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(<span class="st">"readr"</span>)</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(<span class="st">"igraph"</span>)</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(<span class="st">"tidyverse"</span>)</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(<span class="st">"tidygraph"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>A .csv file was brought into the system.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Bring the dataset into R as a dataframe</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>input_data<span class="ot">&lt;-</span><span class="fu">read.csv</span>(<span class="fu">file.choose</span>())</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>To ensure the R script is reusable and not overly prescriptive regarding the dataset layout, it prompts the user to identify the column containing the row IDs.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># define the IDs for the nodes from the list in the console</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>{</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"Available columns:</span><span class="sc">\n</span><span class="st">"</span>)</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(<span class="fu">names</span>(input_data))</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>ID_col <span class="ot">&lt;-</span> <span class="fu">readline</span>(<span class="at">prompt =</span> <span class="st">"Enter the name of the column containing the index IDs: "</span>)</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>{</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span>(ID_col <span class="sc">%in%</span> <span class="fu">names</span>(input_data))) {</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">stop</span>(<span class="st">"Column name not found. Please check spelling and try again."</span>)</span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>df_IDs <span class="ot">&lt;-</span> input_data[[ID_col]]</span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>Masterdata<span class="ot">&lt;-</span><span class="fu">as.data.frame</span>(df_IDs)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Similarly, users can identify columns containing relationships. If multiple kinds of relationships are recorded and the user would like to combine them before running the analysis, multiple column names can be entered and comma separated. Alternatively, users could rerun the analysis, selecting different relationship record columns each time. For the purpose of this analysis, the engagement, collaboration, and sharing of staff relationship records were combined for each row of the data frame.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Show column names and prompt the user to select all columns with relations</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>{</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Show available columns</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"Available columns:</span><span class="sc">\n</span><span class="st">"</span>)</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(<span class="fu">names</span>(input_data))</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Prompt user to enter column names (comma-separated)</span></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>relation_cols_input <span class="ot">&lt;-</span> <span class="fu">readline</span>(<span class="at">prompt =</span> <span class="st">"Enter one or more column names containing relation IDs (comma-separated): "</span>)</span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>{<span class="co"># Split and trim input into a vector of column names</span></span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>relation_cols <span class="ot">&lt;-</span> <span class="fu">strsplit</span>(relation_cols_input, <span class="st">","</span>)[[<span class="dv">1</span>]] <span class="sc">%&gt;%</span> <span class="fu">trimws</span>()</span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Validate column names</span></span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a>invalid_cols <span class="ot">&lt;-</span> <span class="fu">setdiff</span>(relation_cols, <span class="fu">names</span>(input_data))</span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="fu">length</span>(invalid_cols) <span class="sc">&gt;</span> <span class="dv">0</span>) {</span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">stop</span>(<span class="fu">paste</span>(<span class="st">"Invalid column name(s):"</span>, <span class="fu">paste</span>(invalid_cols, <span class="at">collapse =</span> <span class="st">", "</span>)))</span>
+<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a><span class="co"># Combine values from selected columns row-wise</span></span>
+<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a>df_relations <span class="ot">&lt;-</span> input_data <span class="sc">%&gt;%</span></span>
+<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(<span class="fu">all_of</span>(relation_cols)) <span class="sc">%&gt;%</span></span>
+<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a>  <span class="fu">unite</span>(<span class="st">"combined_relations"</span>, <span class="fu">everything</span>(), <span class="at">sep =</span> <span class="st">"; "</span>, <span class="at">na.rm =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb4-24"><a href="#cb4-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-25"><a href="#cb4-25" aria-hidden="true" tabindex="-1"></a><span class="co"># Clean each row</span></span>
+<span id="cb4-26"><a href="#cb4-26" aria-hidden="true" tabindex="-1"></a>df_relations<span class="sc">$</span>cleaned_relations <span class="ot">&lt;-</span> <span class="fu">sapply</span>(df_relations<span class="sc">$</span>combined_relations, <span class="cf">function</span>(x) {</span>
+<span id="cb4-27"><a href="#cb4-27" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Split by semicolon</span></span>
+<span id="cb4-28"><a href="#cb4-28" aria-hidden="true" tabindex="-1"></a>  items <span class="ot">&lt;-</span> <span class="fu">unlist</span>(<span class="fu">strsplit</span>(x, <span class="st">";</span><span class="sc">\\</span><span class="st">s*"</span>))</span>
+<span id="cb4-29"><a href="#cb4-29" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb4-30"><a href="#cb4-30" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Remove empty strings and duplicates</span></span>
+<span id="cb4-31"><a href="#cb4-31" aria-hidden="true" tabindex="-1"></a>  items <span class="ot">&lt;-</span> <span class="fu">unique</span>(items[items <span class="sc">!=</span> <span class="st">""</span>])</span>
+<span id="cb4-32"><a href="#cb4-32" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb4-33"><a href="#cb4-33" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Recombine into a single string</span></span>
+<span id="cb4-34"><a href="#cb4-34" aria-hidden="true" tabindex="-1"></a>  <span class="fu">paste</span>(items, <span class="at">collapse =</span> <span class="st">"; "</span>)</span>
+<span id="cb4-35"><a href="#cb4-35" aria-hidden="true" tabindex="-1"></a>})</span>
+<span id="cb4-36"><a href="#cb4-36" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-37"><a href="#cb4-37" aria-hidden="true" tabindex="-1"></a>Masterdata<span class="sc">$</span>relations<span class="ot">&lt;-</span>df_relations<span class="sc">$</span>cleaned_relations</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>From the new data frame with combined relationships, edges (i.e.&nbsp;connections) and nodes (i.e.&nbsp;activity/centres) can be recorded as lists. From the lists, an adjacency matrix can be produced for network analysis.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Create edge list from Masterdata</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>edge_list <span class="ot">&lt;-</span> Masterdata <span class="sc">%&gt;%</span></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">rowwise</span>() <span class="sc">%&gt;%</span></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">targets =</span> <span class="fu">strsplit</span>(relations, <span class="st">";</span><span class="sc">\\</span><span class="st">s*"</span>)) <span class="sc">%&gt;%</span></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">unnest</span>(targets) <span class="sc">%&gt;%</span></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(targets <span class="sc">!=</span> <span class="st">""</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">distinct</span>(df_IDs, targets)</span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Get all unique nodes</span></span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>nodes <span class="ot">&lt;-</span> <span class="fu">sort</span>(<span class="fu">unique</span>(<span class="fu">c</span>(Masterdata<span class="sc">$</span>df_IDs, edge_list<span class="sc">$</span>targets)))</span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Create adjacency matrix</span></span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a>adj_matrix <span class="ot">&lt;-</span> <span class="fu">matrix</span>(<span class="dv">0</span>, <span class="at">nrow =</span> <span class="fu">length</span>(nodes), <span class="at">ncol =</span> <span class="fu">length</span>(nodes),</span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a>                     <span class="at">dimnames =</span> <span class="fu">list</span>(nodes, nodes))</span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Fill matrix with 1s for directed edges</span></span>
+<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> (i <span class="cf">in</span> <span class="dv">1</span><span class="sc">:</span><span class="fu">nrow</span>(edge_list)) {</span>
+<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a>  from <span class="ot">&lt;-</span> edge_list<span class="sc">$</span>df_IDs[i]</span>
+<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a>  to <span class="ot">&lt;-</span> edge_list<span class="sc">$</span>targets[i]</span>
+<span id="cb5-19"><a href="#cb5-19" aria-hidden="true" tabindex="-1"></a>  adj_matrix[from, to] <span class="ot">&lt;-</span> <span class="dv">1</span></span>
+<span id="cb5-20"><a href="#cb5-20" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>From the adjacency matrix, directed asymmetric relationships are generated between dyads (i.e.&nbsp;pairs of nodes) using the igraph package. From these relationships the degree, betweenness, and closeness centralities can be calculated.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Convert to igraph object</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>g <span class="ot">&lt;-</span> <span class="fu">graph_from_adjacency_matrix</span>(adj_matrix, <span class="at">mode =</span> <span class="st">"directed"</span>, <span class="at">diag =</span> <span class="cn">FALSE</span>)</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Degree centrality</span></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>degree_centrality <span class="ot">&lt;-</span> <span class="fu">degree</span>(g, <span class="at">mode =</span> <span class="st">"all"</span>)</span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Betweenness centrality</span></span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>betweenness_centrality <span class="ot">&lt;-</span> <span class="fu">betweenness</span>(g)</span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Closeness centrality</span></span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a>closeness_centrality <span class="ot">&lt;-</span> <span class="fu">closeness</span>(g)</span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Print summary</span></span>
+<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a>centrality_df <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
+<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a>  <span class="at">Node =</span> <span class="fu">V</span>(g)<span class="sc">$</span>name,</span>
+<span id="cb6-16"><a href="#cb6-16" aria-hidden="true" tabindex="-1"></a>  <span class="at">Degree =</span> degree_centrality,</span>
+<span id="cb6-17"><a href="#cb6-17" aria-hidden="true" tabindex="-1"></a>  <span class="at">Betweenness =</span> betweenness_centrality,</span>
+<span id="cb6-18"><a href="#cb6-18" aria-hidden="true" tabindex="-1"></a>  <span class="at">Closeness =</span> closeness_centrality</span>
+<span id="cb6-19"><a href="#cb6-19" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb6-20"><a href="#cb6-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-21"><a href="#cb6-21" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(centrality_df[<span class="fu">order</span>(<span class="sc">-</span>centrality_df<span class="sc">$</span>Degree), ])</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>It is possible to plot different kinds of network analysis graphs and calculate communities from the results. The first graph represents the networks and communities of different pockets of excellence practicing or promoting reproducible and transparent research practices. Below is an explanation of how an interactive graph was generated.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>communities <span class="ot">&lt;-</span> <span class="fu">cluster_walktrap</span>(g)</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(communities, g, </span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>     <span class="at">vertex.size =</span> degree_centrality,</span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>     <span class="at">vertex.label.cex =</span> <span class="fl">0.7</span>,</span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>     <span class="at">edge.arrow.size =</span> <span class="fl">0.2</span>,</span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>     <span class="at">edge.curved =</span> <span class="fl">0.2</span>,</span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>     <span class="at">main =</span> <span class="st">"UoSoton pockets of excellence for open and reproducible practices"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="visualisation" class="level3">
+<h3 class="anchored" data-anchor-id="visualisation">Visualisation</h3>
+<p>To produce an interactive graph, with tooltips, which can display the activity/centre description the package, visNetwork was used. The following settings were used for the purposes of sharing the output of this analysis.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">"visNetwork"</span>)</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(visNetwork)</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Create edges data frame for visNetwork</span></span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a>edges_df <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>  <span class="at">from =</span> edge_list<span class="sc">$</span>df_IDs,</span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a>  <span class="at">to =</span> edge_list<span class="sc">$</span>targets,</span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a>  <span class="at">arrows =</span> <span class="st">"to"</span>,  <span class="co"># Directed edges</span></span>
+<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a>  <span class="at">stringsAsFactors =</span> <span class="cn">FALSE</span></span>
+<span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb8-12"><a href="#cb8-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-13"><a href="#cb8-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Function to insert &lt;br&gt; every N characters</span></span>
+<span id="cb8-14"><a href="#cb8-14" aria-hidden="true" tabindex="-1"></a>wrap_text <span class="ot">&lt;-</span> <span class="cf">function</span>(text, <span class="at">width =</span> <span class="dv">40</span>) {</span>
+<span id="cb8-15"><a href="#cb8-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">sapply</span>(<span class="fu">strwrap</span>(text, <span class="at">width =</span> width, <span class="at">simplify =</span> <span class="cn">FALSE</span>), <span class="cf">function</span>(x) <span class="fu">paste</span>(x, <span class="at">collapse =</span> <span class="st">"&lt;br&gt;"</span>))</span>
+<span id="cb8-16"><a href="#cb8-16" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb8-17"><a href="#cb8-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-18"><a href="#cb8-18" aria-hidden="true" tabindex="-1"></a><span class="co"># Create nodes data frame for visNetwork</span></span>
+<span id="cb8-19"><a href="#cb8-19" aria-hidden="true" tabindex="-1"></a>nodes_df <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
+<span id="cb8-20"><a href="#cb8-20" aria-hidden="true" tabindex="-1"></a>  <span class="at">id =</span> nodes,</span>
+<span id="cb8-21"><a href="#cb8-21" aria-hidden="true" tabindex="-1"></a>  <span class="at">label =</span> input_data<span class="sc">$</span>Activity.centre[<span class="fu">match</span>(nodes, input_data[[ID_col]])],</span>
+<span id="cb8-22"><a href="#cb8-22" aria-hidden="true" tabindex="-1"></a>  <span class="at">title =</span> <span class="fu">wrap_text</span>(<span class="fu">paste0</span>(<span class="st">"&lt;b&gt;"</span>,input_data<span class="sc">$</span>Activity.centre[<span class="fu">match</span>(nodes, input_data[[ID_col]])],<span class="st">"&lt;/b&gt;&lt;br&gt;"</span>, input_data<span class="sc">$</span>Description[<span class="fu">match</span>(nodes, input_data[[ID_col]])])),</span>
+<span id="cb8-23"><a href="#cb8-23" aria-hidden="true" tabindex="-1"></a>  <span class="at">value =</span> degree_centrality[<span class="fu">match</span>(nodes, <span class="fu">names</span>(degree_centrality))],</span>
+<span id="cb8-24"><a href="#cb8-24" aria-hidden="true" tabindex="-1"></a>  <span class="at">stringsAsFactors =</span> <span class="cn">FALSE</span></span>
+<span id="cb8-25"><a href="#cb8-25" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb8-26"><a href="#cb8-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-27"><a href="#cb8-27" aria-hidden="true" tabindex="-1"></a><span class="co"># Create interactive network graph with tooltips</span></span>
+<span id="cb8-28"><a href="#cb8-28" aria-hidden="true" tabindex="-1"></a><span class="fu">visNetwork</span>(nodes_df, edges_df, <span class="at">width =</span> <span class="st">"100%"</span>, <span class="at">height =</span> <span class="st">"700px"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb8-29"><a href="#cb8-29" aria-hidden="true" tabindex="-1"></a>  <span class="fu">visNodes</span>(<span class="at">shape =</span> <span class="st">"dot"</span>, <span class="at">scaling =</span> <span class="fu">list</span>(<span class="at">min =</span> <span class="dv">5</span>, <span class="at">max =</span> <span class="dv">50</span>)) <span class="sc">%&gt;%</span></span>
+<span id="cb8-30"><a href="#cb8-30" aria-hidden="true" tabindex="-1"></a>  <span class="fu">visEdges</span>(<span class="at">arrows =</span> <span class="st">"to"</span>, <span class="at">smooth =</span> <span class="cn">TRUE</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb8-31"><a href="#cb8-31" aria-hidden="true" tabindex="-1"></a>  <span class="fu">visOptions</span>(</span>
+<span id="cb8-32"><a href="#cb8-32" aria-hidden="true" tabindex="-1"></a>    <span class="at">highlightNearest =</span> <span class="fu">list</span>(<span class="at">enabled =</span> <span class="cn">TRUE</span>, <span class="at">degree =</span> <span class="dv">1</span>, <span class="at">hover =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb8-33"><a href="#cb8-33" aria-hidden="true" tabindex="-1"></a>    <span class="at">nodesIdSelection =</span> <span class="fu">list</span>(<span class="at">enabled =</span> <span class="cn">TRUE</span>, <span class="at">useLabels =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb8-34"><a href="#cb8-34" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
+<span id="cb8-35"><a href="#cb8-35" aria-hidden="true" tabindex="-1"></a>  <span class="fu">visInteraction</span>(<span class="at">hover =</span> <span class="cn">TRUE</span>, <span class="at">tooltipDelay =</span> <span class="dv">100</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb8-36"><a href="#cb8-36" aria-hidden="true" tabindex="-1"></a>  <span class="fu">visLayout</span>(<span class="at">randomSeed =</span> <span class="dv">123</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb8-37"><a href="#cb8-37" aria-hidden="true" tabindex="-1"></a>  <span class="fu">visPhysics</span>(<span class="at">stabilization =</span> <span class="cn">TRUE</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+</section>
+<section id="results" class="level2">
+<h2 class="anchored" data-anchor-id="results">Results</h2>
+<section id="key" class="level3">
+<h3 class="anchored" data-anchor-id="key">Key</h3>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code>u1  =  UKRN Local Network 
+l1  =  Library 
+c1  =  Centre for Higher Education Practice 
+p1  =  Physical Sciences Data Infrastructure (PSDI) 
+s1  =  Software Sustainability Institute 
+c2  =  CaSDaR 
+d1  =  Digital Preservation Southampton 
+h1  =  Hidden REF 
+n1  =  School of Healthcare Enterprise and Innovation 
+t1  =  Open Science in Psychology (PSYC6136) 
+t2  =  Training in Research Output Sharing 
+e1  =  Eprints Services 
+n2  =  National Crystallography Service / National Electron Diffraction Facility 
+s2  =  Southampton Clinical Trials Unit (SCTU) 
+e2  =  Electronic Research Notebooks (ERNs) project 
+n3  =  NIHR Southampton Clinical Research Facility (NIHR CRF) 
+r1  =  Research On Research Registry and Hub 
+c3  =  The Cancer Genome Atlas (TCGA) Pan-Cancer paired gene expression tool 
+w1  =  WorldPop 
+b1  =  Biomedical Research Center (NIHR BRC) 
+r2  =  ReproducibiliTea 
+r3  =  Research England Enhancing Research Culture funding </code></pre>
+</div>
+</div>
+</section>
+<section id="betweenness-and-closeness-output" class="level3">
+<h3 class="anchored" data-anchor-id="betweenness-and-closeness-output">Betweenness and closeness output</h3>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code>   Node Degree Betweenness  Closeness
+u1   u1     22 146.1238095 0.04000000
+l1   l1     20 103.5071429 0.04347826
+c2   c2     15  21.2380952 0.02941176
+s1   s1     11  13.6404762 0.02857143
+r3   r3     10  38.7000000 0.03030303
+h1   h1      9   0.6666667 0.02702703
+p1   p1      9  10.4047619 0.02702703
+r2   r2      9   9.6023810 0.03125000
+d1   d1      7   0.0000000 0.02631579
+e2   e2      6   4.4500000 0.02702703
+n2   n2      6   0.6666667 0.02127660
+c1   c1      5   0.0000000 0.02631579
+n1   n1      5  34.0000000 0.02500000
+n3   n3      4   2.0000000 0.50000000
+t1   t1      4   0.0000000 0.02439024
+t2   t2      4   0.0000000 0.02439024
+b1   b1      2   0.0000000 0.33333333
+c3   c3      2   0.0000000 0.02000000
+e1   e1      2   0.0000000 0.02500000
+r1   r1      2   0.0000000 0.01754386
+s2   s2      2   0.0000000 0.33333333
+w1   w1      2   0.0000000 0.02500000</code></pre>
+</div>
+</div>
+<p>This analysis demonstrates highest closeness centrality in the UKRN Local Network and the Library, respectively – this is the average geodesic distance from a given node to all other nodes in the network. Both the UKRN Local Network and the Library are relatively central and well connected within the largest connected cluster. There are four distinct communities within this cluster, comprising the School of Healthcare Enterprise and Innovation and its activities and links; Open Science training in Psychology, offered by one member of staff and UKRN Local Network member; the UKRN Local Network and other networks and initiatives which share an interest in reproducible and transparent research practices; and the Library alongside other Professional Services infrastructures, funding, and those benefiting from those services but not currently engaging with the wider network. There is a fifth distinct community comprising of NIHR infrastructures which support reproducible and transparent practices, but there is no recorded symmetric or asymmetric engagement between this cluster and the other in respect to these practices and principles.</p>
+<p>In the largest cluster, the Library and the UKRN Local Network have the greatest betweenness centrality, respectively. This is the extent to which a given node lies on a path between others.</p>
+</section>
+<section id="network-analysis-graph-with-community-clusters" class="level3">
+<h3 class="anchored" data-anchor-id="network-analysis-graph-with-community-clusters">Network analysis graph with community clusters</h3>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="index_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="interactive-network-graph" class="level3">
+<h3 class="anchored" data-anchor-id="interactive-network-graph">Interactive network graph</h3>
+<div class="cell">
+<div class="cell-output-display">
+<div id="htmlwidget-8791bb1a80365c6279c1" style="width:100%;height:700px;" class="visNetwork html-widget"></div>
+<script type="application/json" data-for="htmlwidget-8791bb1a80365c6279c1">{"x":{"nodes":{"id":["b1","c1","c2","c3","d1","e1","e2","h1","l1","n1","n2","n3","p1","r1","r2","r3","s1","s2","t1","t2","u1","w1"],"label":["Biomedical Research Center (NIHR BRC)","Centre for Higher Education Practice","CaSDaR","The Cancer Genome Atlas (TCGA) Pan-Cancer paired gene expression tool","Digital Preservation Southampton","Eprints Services","Electronic Research Notebooks (ERNs) project","Hidden REF","Library","School of Healthcare Enterprise and Innovation","National Crystallography Service / National Electron Diffraction Facility","NIHR Southampton Clinical Research Facility (NIHR CRF)","Physical Sciences Data Infrastructure (PSDI)","Research On Research Registry and Hub","ReproducibiliTea","Research England Enhancing Research Culture funding","Software Sustainability Institute","Southampton Clinical Trials Unit (SCTU)","Open Science in Psychology (PSYC6136)","Training in Research Output Sharing","UKRN Local Network","WorldPop"],"title":["<b>Biomedical Research Center (NIHR<br>BRC)<\/b><br>NIHR infrastructure<br>supporting","<b>Centre for Higher Education<br>Practice<\/b><br>Local infrastructure<br>supporting training for research best<br>practice.","<b>CaSDaR<\/b><br>A network and<br>resources aimed at supporting research<br>data professionals with reward and<br>recognition, and improving FAIR data.","<b>The Cancer Genome Atlas (TCGA)<br>Pan-Cancer paired gene expression<br>tool<\/b><br>Improving data<br>accessibility through data<br>visualisation tool that enables<br>researchers to compare gene expression<br>between tumour and normal tissue<br>samples without the need for coding<br>skills","<b>Digital Preservation<br>Southampton<\/b><br>An enterprise unit<br>within digital humanities, collecting<br>expertise on digital preservation.","<b>Eprints<br>Services<\/b><br>Developer/host of<br>Eprints repository software.","<b>Electronic Research Notebooks (ERNs)<br>project<\/b><br>Developing best<br>practices and implementing the use of<br>ERNs in Chemistry and physical<br>sciences, with monitoring and<br>evaluation. See outputs list.<br>linkedin.com/pulse/how-do-you-implement-electronic-lab-notebook-southampton-eln-1keue","<b>Hidden REF<\/b><br>An exercise and<br>community aimed at improving the<br>recognition of underappreciated<br>activities and roles which contribute<br>to research.","<b>Library<\/b><br>Local infrastructure<br>for supporting, resourcing,<br>collaborating, sharing, and training on<br>open access, open research information<br>management practices, and data<br>management.","<b>School of Healthcare Enterprise and<br>Innovation<\/b><br>NIHR NETSCC, based at<br>the University of Southampton, manages<br>evaluation research programmes and<br>activities for NIHR. Metaresearch for<br>health / Research on Research (RoR)<br>programme.","<b>National Crystallography Service /<br>National Electron Diffraction<br>Facility<\/b><br>Development and<br>implementation of standards and<br>processes for making diffraction data<br>(openly) available. NCS Director is<br>chair of the International Union of<br>Crystallography Committee on Data which<br>oversees such activity globally]","<b>NIHR Southampton Clinical Research<br>Facility (NIHR CRF)<\/b><br>Support for<br>University or NHS investigators to<br>conduct experimental/translational<br>medicine and complex clinical trials.<br>Medical, Nursing, Governance, Training,<br>Laboratory, Expert Public<br>Involvement/Engagement/Research<br>Diversity support for research needing<br>human samples/participants in healthy<br>volunteers or patients.","<b>Physical Sciences Data<br>Infrastructure (PSDI)<\/b><br>A network<br>and resources aimed at improving data<br>reproducibility across the physical<br>sciences, rather than in isolated<br>disciplines.","<b>Research On Research Registry and<br>Hub<\/b><br>Online Research on Research<br>registry and hub to support research<br>and collaborations in meta science <ff>","<b>ReproducibiliTea<\/b><br>At<br>Southampton, ReproducibiliTea brings<br>together researchers from across<br>disciplines to critically engage with<br>papers, share ideas, and foster a<br>culture of transparency and<br>collaboration in scientific practice.<br>It provides a welcoming space for PGRs,<br>early-career and established<br>researchers to reflect on how science<br>can be improved through open and<br>reproducible methods.","<b>Research England Enhancing Research<br>Culture funding<\/b><br>Managed by the<br>Associate Vice Presidents<br>Interdisciplinary Research, these funds<br>are disbursed in support of various<br>projects supporting good research<br>culture, Open Research,<br>reproducibility, and research<br>integrity.","<b>Software Sustainability<br>Institute<\/b><br>A network and<br>resources aimed at improving research<br>software for greater reproducibility.","<b>Southampton Clinical Trials Unit<br>(SCTU)<\/b><br>Research infrastructure<br>developing, collaborating, sharing, and<br>training open access clinical trials<br>methodology and researcher development","<b>Open Science in Psychology<br>(PSYC6136)<\/b><br>A training module for<br>masters level students which teaches<br>students regarding open science,<br>metascience and reproducible report<br>writing in R","<b>Training in Research Output<br>Sharing<\/b><br>A 1-hour session for<br>staff in best practices for sharing<br>outputs from scientific research. Will<br>be piloting this in Psychology in<br>October.","<b>UKRN Local Network<\/b><br>Local<br>network for sharing best practice,<br>bringing other networks and initiatives<br>together, and integrating with the<br>national network.","<b>WorldPop<\/b><br>Global open access<br>population database. The approaches<br>used in WorldPop dataset production are<br>designed with full open access and<br>operational application in mind, using<br>transparent, documented and shareable<br>methods to produce easily updatable<br>maps with accompanying metadata."],"value":[2,5,15,2,7,2,6,9,20,5,6,4,9,2,9,10,11,2,4,4,22,2]},"edges":{"from":["u1","u1","u1","u1","u1","u1","u1","u1","u1","u1","u1","l1","l1","l1","l1","l1","l1","l1","l1","l1","l1","l1","l1","l1","c1","c1","p1","p1","p1","p1","s1","s1","s1","s1","s1","c2","c2","c2","c2","c2","c2","c2","d1","d1","d1","h1","h1","h1","h1","n1","n1","t1","t1","t2","t2","e1","n2","n2","n2","s2","e2","e2","e2","n3","n3","r1","c3","w1","b1","r2","r2","r2","r2","r2","r3","r3","r3","r3","r3"],"to":["l1","r2","r3","p1","s1","c2","d1","h1","n1","t1","t2","u1","c1","p1","c2","w1","r3","s1","d1","h1","n1","e1","e2","r2","l1","r3","n2","e2","u1","c2","u1","n2","c2","h1","r2","u1","n2","p1","s1","d1","h1","e2","u1","c2","h1","u1","s1","c2","d1","r1","u1","u1","t2","u1","t1","l1","p1","s1","c2","n3","p1","l1","c2","b1","s2","n1","r3","l1","n3","u1","r3","l1","c1","s1","u1","l1","r2","c1","c3"],"arrows":["to","to","to","to","to","to","to","to","to","to","to","to","to","to","to","to","to","to","to","to","to","to","to","to","to","to","to","to","to","to","to","to","to","to","to","to","to","to","to","to","to","to","to","to","to","to","to","to","to","to","to","to","to","to","to","to","to","to","to","to","to","to","to","to","to","to","to","to","to","to","to","to","to","to","to","to","to","to","to"]},"nodesToDataframe":true,"edgesToDataframe":true,"options":{"width":"100%","height":"100%","nodes":{"shape":"dot","scaling":{"min":5,"max":50}},"manipulation":{"enabled":false},"edges":{"arrows":"to","smooth":true},"interaction":{"hover":true,"tooltipDelay":100,"zoomSpeed":1},"layout":{"randomSeed":123},"physics":{"stabilization":true}},"groups":null,"width":"100%","height":"700px","idselection":{"enabled":true,"style":"width: 150px; height: 26px","useLabels":true,"main":"Select by id"},"byselection":{"enabled":false,"style":"width: 150px; height: 26px","multiple":false,"hideColor":"rgba(200,200,200,0.5)","highlight":false},"main":null,"submain":null,"footer":null,"background":"rgba(0, 0, 0, 0)","highlight":{"enabled":true,"hoverNearest":true,"degree":1,"algorithm":"all","hideColor":"rgba(200,200,200,0.5)","labelOnly":true},"collapse":{"enabled":false,"fit":false,"resetHighlight":true,"clusterOptions":null,"keepCoord":true,"labelSuffix":"(cluster)"},"tooltipStay":300,"tooltipStyle":"position: fixed;visibility:hidden;padding: 5px;white-space: nowrap;font-family: verdana;font-size:14px;font-color:#000000;background-color: #f5f4ed;-moz-border-radius: 3px;-webkit-border-radius: 3px;border-radius: 3px;border: 1px solid #808074;box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</section>
+</section>
+<section id="discussion" class="level2">
+<h2 class="anchored" data-anchor-id="discussion">Discussion</h2>
+<p>A node with high closeness centrality is efficient at communicating. Therefore, based on this analysis, the Library and UKRN Local Network are the most advantageously placed to communicate reproducible and transparent research practices. One node is an infrastructure, being part of the University’s Professional Services, and the other is an organisational network, which means they are well placed to work collaboratively. However, both nodes occupy a similar space and share many relationships, demonstrating a degree of homophily.</p>
+<p>In the cases of the School of Healthcare Enterprise and Innovation and the School of Psychology, individual UKRN Local Network members are acting as bridging ties between activities in their respective groups. Therefore, these links are valuable, but potentially vulnerable.</p>
+<p>Despite some vulnerable bridging ties and a degree of observable homophily, popularity and transitivity are observably fostering improved connectivity within the network. The Library is a good example that popularity – i.e.&nbsp;the propensity to establish more ties is increasingly likely for nodes with more existing ties – can grow the influence of an infrastructure over others in specific areas of interest – in this case, Open Research. Transitivity – the dependence between triplets, i.e.&nbsp;a friend of a friend is also a friend – can also be observed numerous times between the UKRN Local Network e.g.&nbsp;with ReproducibiliTea, PSDI, Software Sustainability Institute, CaSDaR etc. Indeed, it was through some of these ties that the multi-departmental CaSDaR funding bid was established.</p>
+</section>
+<section id="conclusions" class="level2">
+<h2 class="anchored" data-anchor-id="conclusions">Conclusions</h2>
+<p>Through this exercise 22 activities or centres of activity were identified. Those ranged from individual initiatives to deliver training, to funded activities to improve reproducibility, to established enterprise units, organisational networks, funding, infrastructures and services. The time and network limitations of this self-reporting study mean that it is possible for more nodes to be added in future, but it is likely those will have weak bridging ties or will be distinct communities.</p>
+<p>Popularity and transitivity have the potential to grow the influence of the UKRN Local Network and Library over time. However, the mechanisms underpinning the observed homophily present a limiting factor. The purpose of the UKRN is to “enable researchers and research-enablers, academic institutions, and other sectoral organisations working in the UK research system to collaborate, so they are better able to conduct and promote rigorous, reproducible, and transparent research” (<a href="https://www.ukrn.org/terms-of-reference/" class="uri">https://www.ukrn.org/terms-of-reference/</a>, retrieved 29/10/2025). Therefore, efforts should be made to increase reciprocity between the UKRN Local Network and diverse research disciplines and practices, and where possible links should be established or strengthened with individuals, networks, and infrastructures in those areas to take advantage of the transitivity and popularity effects.</p>
+<section id="future-improvements" class="level3">
+<h3 class="anchored" data-anchor-id="future-improvements">Future improvements</h3>
+<p>Colour coding ties: Reintroducing information about the level of engagement, collaboration, or sharing of staff into the output graphs through colour coding of ties could help visualise the strength of the networks.</p>
+<p>Re-running the exercise: Re-running the exercise in the future could demonstrate how the network changes over time and highlight effective interventions.</p>
+<p>Replication studies: This output has been produced in R using Quarto, it is shared in a GitHub repository and can be adapted, reused, and built upon. The University of Southampton case study can act as a point of reference for other similar studies.</p>
+</section>
+</section>
+<section id="acknowledgements" class="level2">
+<h2 class="anchored" data-anchor-id="acknowledgements">Acknowledgements</h2>
+<p>Thank you to all those who reviewed and contributed to the compilation and editing of the underpinning dataset. This includes the University of Southampton UKRN Local Network, Associate Deans Research, Members of the Open Research Group, Deputy Heads of School Research, and their colleagues.</p>
+<section id="contributor-roles" class="level3">
+<h3 class="anchored" data-anchor-id="contributor-roles">Contributor roles</h3>
+<p><span class="smallcaps">Steven U. Vidovic</span> (author): Conceptualization, Data curation, Formal analysis, Investigation, Methodology, Project administration, Resources, Software, Supervision, Visualization, Writing - original draft, and Writing - review &amp; editing.</p>
+<p><span class="smallcaps">Christian Bokhove</span> (contributor): Conceptualization.</p>
+<p><span class="smallcaps">Kate F. Goldie</span> (contributor): Data curation, Project administration, and Writing - review &amp; editing.</p>
+</section>
+<section id="use-of-artificial-intelligence" class="level3">
+<h3 class="anchored" data-anchor-id="use-of-artificial-intelligence">Use of Artificial Intelligence</h3>
+<p>Artificial intelligence (AI) tools were used to assist with the writing and debugging of R scripts in this project. Specifically, Microsoft Copilot (version: February 2025) was employed. All AI-generated content was thoroughly reviewed by the author, who has full understanding of the script’s functionality and remains fully accountable for its accuracy and integrity. The author affirms that all intellectual contributions, decisions, and validations were made independently and responsibly.</p>
+<p><strong>License:</strong> This work is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
